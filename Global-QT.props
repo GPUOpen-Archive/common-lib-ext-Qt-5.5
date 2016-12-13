@@ -11,7 +11,7 @@
       <AdditionalIncludeDirectories>$(QTDir)\include;$(QtDir)\include\QtCore;$(QtDir)\include\QtWidgets;$(QtDir)\include\QtGui;$(QtDir)\include\QtNetwork;$(QtDir)\include\QtXml;$(QtDir)\include\QtWebKit;$(QtDir)\include\QtWebKitWidgets;$(QtDir)\include\QtPrintSupport;$(QtDir)\include\QtOpenGL;$(QtDir)\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Qt5Widgets$(GDTDebugSuffixNoDash).lib;Qt5Core$(GDTDebugSuffixNoDash).lib;Qt5Gui$(GDTDebugSuffixNoDash).lib;Qt5Network$(GDTDebugSuffixNoDash).lib;Qt5Xml$(GDTDebugSuffixNoDash).lib;Qt5OpenGL$(GDTDebugSuffixNoDash).lib;Qt5WebKit$(GDTDebugSuffixNoDash).lib;Qt5WebKitWidgets$(GDTDebugSuffixNoDash).lib;Qt5PrintSupport$(GDTDebugSuffixNoDash).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Qt5Widgets$(AMDTDebugSuffixNoDash).lib;Qt5Core$(AMDTDebugSuffixNoDash).lib;Qt5Gui$(AMDTDebugSuffixNoDash).lib;Qt5Network$(AMDTDebugSuffixNoDash).lib;Qt5Xml$(AMDTDebugSuffixNoDash).lib;Qt5OpenGL$(AMDTDebugSuffixNoDash).lib;Qt5WebKit$(AMDTDebugSuffixNoDash).lib;Qt5WebKitWidgets$(AMDTDebugSuffixNoDash).lib;Qt5PrintSupport$(AMDTDebugSuffixNoDash).lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(QTDir)\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

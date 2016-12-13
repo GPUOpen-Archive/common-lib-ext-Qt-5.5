@@ -11,7 +11,7 @@
       <AdditionalIncludeDirectories>$(QTDir)\include;$(QtDir)\include\QtCore;$(QtDir)\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Qt5Core$(GDTDebugSuffixNoDash).lib;Qt5Xml$(GDTDebugSuffixNoDash).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Qt5Core$(AMDTDebugSuffixNoDash).lib;Qt5Xml$(AMDTDebugSuffixNoDash).lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(QTDir)\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
